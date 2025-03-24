@@ -49,10 +49,7 @@ export const HomeHero = (): React.ReactElement => {
       </div>
       {/* Left side */}
       <div className="mt-12 lg:mt-0">
-        <picture>
-          <source media="(min-width: 600px)" srcSet="/images/hero-image-desktop.png" />
-          <img src="/images/hero-image-mobile.png" alt="Principal image" className="w-full object-cover" />
-        </picture>
+        <img src="/images/hero-image-desktop.png" alt="Principal image" className="w-full object-cover" />
       </div>
     </div>
   );
