@@ -18,15 +18,15 @@ export const HomeAllTheTools = (): React.ReactElement => {
           Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu
           imperdiet ipsum ultrices amet, dui sit suspendisse.
         </p>
-        <img className="w-full mt-8" src="/images/uteach-page-2.svg" alt="title line" />
       </div>
-      <div className="ml-4 relative z-10">
-        <img className="w-full mt-8" src="/images/uteach-tools.svg" alt="title line" />
-      </div>
-      {/* Background */}
-      <div className="absolute w-full h-full top-0 z-0">
-        <img className="w-auto absolute left-[0px] top-[197px]" src="/images/bg-tools-1.svg" alt="title line" />
-        <img className="w-auto absolute right-[0px] top-[41px]" src="/images/bg-tools-2.svg" alt="title line" />
+      {/* Image and background containter */}
+      <div className="relative">
+        <img className="w-full p-4 z-10 relative" src="/images/uteach-page-2.svg" alt="title line" />
+        <img className="-mt-4 w-[19%] ml-[34.6%]" src="/images/tools-line.svg" alt="title line" />
+        <img className="w-full pl-4" src="/images/uteach-tools.svg" alt="title line" />
+        {/* Background */}
+        <img className="w-[30%] absolute top-0 left-0" src="/images/bg-tools-1.svg" alt="title line" />
+        <img className="w-[32.56%] absolute right-0 top-[-47%]" src="/images/bg-tools-2.svg" alt="title line" />
       </div>
     </div>
   );
