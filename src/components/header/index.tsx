@@ -7,7 +7,7 @@ import ChevronDownIcon from "../icons/chevron-down-icon";
 
 export const Header = (): React.ReactElement => {
   return (
-    <div className="py-4 flex items-center justify-between lg:py-6 lg:justify-between">
+    <div className="home-container py-4 flex items-center justify-between lg:py-6 lg:justify-between">
       <div className="lg:flex lg:gap-12 lg:items-center">
         <Image src="/images/logo-full.svg" alt="UTeach logo" width={103} height={35} />
         {/* Desktop navbar */}

@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 :root {
+  --blue-gray-100: #f1f5f9;
   --blue-gray-600: #475569;
-  --blue-gray-900: #0F172A;
-  --orange-600: #EA580C;
-  --blue-600: #2563EB;
+  --blue-gray-900: #0f172a;
+  --orange-600: #ea580c;
+  --blue-600: #2563eb;
 }
 
 body {
@@ -14,4 +15,8 @@ body {
 
 button {
   cursor: pointer;
+}
+
+.home-container {
+  @apply w-full max-w-[1450px] mx-auto px-4 lg:px-20;
 }

@@ -4,7 +4,7 @@ import { HomeHero } from "@/sections/home/hero";
 
 export default function Home() {
   return (
-    <div className="grid gap-12 px-4 lg:px-20 lg:gap-20 max-w-[1450px] mx-auto">
+    <div className="grid gap-12 lg:gap-20">
       <Header />
       <HomeHero />
       <HomeAllTheTools />

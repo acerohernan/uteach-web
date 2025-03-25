@@ -4,7 +4,7 @@ import React from "react";
 
 export const HomeHero = (): React.ReactElement => {
   return (
-    <div className="lg:flex lg:items-center lg:justify-between">
+    <div className="home-container lg:flex lg:items-center lg:justify-between">
       {/* Right side */}
       <div>
         {/* Main section */}
