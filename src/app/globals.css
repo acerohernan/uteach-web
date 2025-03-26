@@ -5,7 +5,11 @@
   --blue-gray-600: #475569;
   --blue-gray-900: #0f172a;
   --orange-600: #ea580c;
+  --blue-100: #DBEAFE;
   --blue-600: #2563eb;
+  --blue-800: #1E40AF;
+  --purple-100: #F3E8FF;
+  --purple-800: #6B21A8;
 }
 
 body {
@@ -19,4 +23,10 @@ button {
 
 .home-container {
   @apply w-full max-w-[1450px] mx-auto px-4 lg:px-20;
+}
+
+.card-xl {
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }

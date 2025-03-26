@@ -1,5 +1,6 @@
 import { Header } from "@/components/header";
 import { HomeAllTheTools } from "@/sections/home/all-the-tools";
+import { HomeFeatures } from "@/sections/home/features";
 import { HomeHero } from "@/sections/home/hero";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <HomeHero />
       <HomeAllTheTools />
+      <HomeFeatures />
     </div>
   );
 }
