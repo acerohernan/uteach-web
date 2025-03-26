@@ -11,6 +11,7 @@ export const featuresCards = [
     title: "The map of mathematics",
     description: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
     href: "#",
+    hideInMobile: false,
   },
   {
     tag: "Popular",
@@ -18,5 +19,14 @@ export const featuresCards = [
     title: "Design for how people think",
     description: "Aliquam ut euismod condimentum elementum ultricies volutpat sit non.",
     href: "#",
+    hideInMobile: false,
+  },
+  {
+    tag: "New",
+    tagClassName: "text-[var(--green-800)] bg-[var(--green-100)]",
+    title: "International & commercial law",
+    description: "Molestie integer eu arcu, mauris bibendum rhoncus imperdiet dui. ",
+    href: "#",
+    hideInMobile: true,
   },
 ];
