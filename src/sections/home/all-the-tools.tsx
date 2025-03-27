@@ -2,8 +2,8 @@ import React from "react";
 
 export const HomeAllTheTools = (): React.ReactElement => {
   return (
-    <div className="lg:bg-[var(--blue-gray-100)]">
-      <div className="home-container relative my-12 lg:my-20 -mx-4 ">
+    <div className="lg:bg-[var(--blue-gray-100)] py-12 lg:py-20">
+      <div className="home-container relative -mx-4 ">
         <div className="mx-4 relative z-10">
           {/* Subtitle */}
           <div className="relative">

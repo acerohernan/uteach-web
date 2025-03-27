@@ -6,7 +6,7 @@ import { formatToKebabCase } from "@/lib/format";
 
 export const HomeFeatures = (): React.ReactElement => {
   return (
-    <div className="home-container grid gap-8 lg:flex lg:justify-between lg:items-center lg:gap-20">
+    <div className="home-container grid gap-8 lg:flex lg:justify-between lg:items-center lg:gap-20 py-12 lg:py-20">
       <div className="lg:max-w-[544px] grid gap-8 relative z-10">
         <div>
           {/* Subtitle */}

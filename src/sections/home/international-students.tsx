@@ -4,7 +4,7 @@ import React from "react";
 
 export const HomeInternationalStudents = (): React.ReactElement => {
   return (
-    <div className="home-container grid gap-6 lg:grid lg:grid-cols-2 lg:gap-11 lg:items-center">
+    <div className="home-container grid gap-6 lg:grid lg:grid-cols-2 lg:gap-11 lg:items-center py-12 lg:py-20">
       <div className="grid gap-6 lg:order-2 lg:gap-8">
         <h2 className="text-[24px] font-bold relative z-10 lg:text-[56px] lg:leading-16">
           Meet international students & teachers
