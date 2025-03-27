@@ -15,7 +15,7 @@ export const HomeJoinAWorldOfLearning = (): React.ReactElement => {
 
         <div className="flex flex-col items-center text-center gap-4 lg:justify-center lg:gap-8">
           <h3 className="text-[24px] font-bold relative z-10 lg:text-[56px] lg:leading-16">Join a world of learning</h3>
-          <p className="leading-6 lg:text-[20px] leading-8">
+          <p className="leading-6 lg:text-[20px] lg:leading-8">
             Malesuada ut aliquam at ac est nisi, interdum etiam dignissim.
             <br />
             Risus elit et fringilla habitant ut facilisi.
