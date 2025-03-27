@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { HomeAllTheTools } from "@/sections/home/all-the-tools";
 import { HomeAnalitics } from "@/sections/home/analitics";
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeInternationalStudents />
       <HomeAnalitics />
       <HomeJoinAWorldOfLearning />
+      <Footer />
     </div>
   );
 }
